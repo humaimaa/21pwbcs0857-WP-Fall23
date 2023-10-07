@@ -1,42 +1,111 @@
 <!DOCTYPE html>
-<html>
+<nav lang="en">
 <head>
-<title>Admission Form</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href ="styles.css">
+    <title>HUMAIMA - Portfolio</title>
 </head>
-<body>
-<h1>Admission Form</h1>
-<form action="/submit" method="post">
-<label for="name">Full Name:</label><br>
-<input type="text" id="name" name="name" required><br><br>
-<label for="email">Email:</label><br>
-<input type="email" id="email" name="email" required><br><br>
-<label for="phone">Phone Number:</label><br>
-<input type="tel" id="phone" name="phone" required><br><br>
-<label for="dob">Date of Birth:</label><br>
-<input type="date" id="dob" name="dob" required><br><br>
-<label for="gender">Gender:</label><br>
-<input type="radio" id="male" name="gender" value="male">
-<label for="male">Male</label><br>
-<input type="radio" id="female" name="gender" value="female">
-<label for="female">Female</label><br>
-<input type="radio" id="other" name="gender" value="other">
-<label for="other">Other</label><br><br>
-<label for="course">Select Course:</label><br>
-<select id="course" name="course">
-<option value="engineering">Engineering</option>
-<option value="business">Business</option>
-<option value="medicine">Medicine</option>
-<option value="arts">Arts</option>
-</select><br><br>
-<label for="resume">Upload Resume:</label><br>
-<input type="file" id="resume" name="resume"><br><br>
-<label for="comments">Additional Comments:</label><br>
-<textarea id="comments" name="comments" rows="4" 
-cols="50"></textarea><br><br>
-<label for="subscribe">Subscribe to Newsletter:</label>
-<input type="checkbox" id="subscribe" name="subscribe" 
-value="yes"><br><br>
-<button type="submit" name="submit" id="submitButton">Submit</button>
-</form>
+        <div>
+  <nav><div class="nav__content"></div></nav>
+  <div class="logo"><a href="#">HUMAIMA</a></div>
+  <label for="check" class="checkbox">
+    <i class="ri-menu-line"></i>
+</label>
+<input type="checkbox" name="check" id="check">
+<ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Resume</a></li>
+  <li><a href="#">Portfolio</a></li>
+  <li><a href="#">Contact</a></li>
+</ul>
+</div>
+</nav>
+<I class="section">
+
+
+Hello <span>I'm </span>Humaima</span>
+
+        </h1>
+        <p class="description">
+            Welcome to my portfolio! 
+            This space is a reflection of my journey, passions, and the exciting projects I've been fortunate to be a part of.
+        </p>
+        
+        </div>
+    </div>
+    
+</div>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Creative and detail-oriented front-end developer specializing in crafting engaging user interfaces and seamless user experiences.
+         Proficient in HTML, CSS, JavaScript, and popular front-end libraries like React and Vue. 
+        Committed to staying updated with the latest web development trends and best practices</p>
+    <h3>Key Skills</h3>
+    <ul>
+        <li>web developnment</li>
+        <li>data analysis</li>
+       
+    </ul>
+    <h3>Academic Achievements</h3>
+    <ul>
+        <li>Led a cross-functional team to implement a cutting-edge AI solution, resulting in a 200% increase in efficiency.
+             <li>Founded and presided over the 'Future Leaders Club,' which grew to 100+ members in its first year.</li>
+        <li>Organized and managed a city-wide environmental cleanup event, engaging 500+ volunteers.</li>
+        <li>"Developed a revolutionary mobile app that garnered 50,000 downloads within the first month of launch."</li>
+       
+    </ul>
+</section>
+
+<section id="resume">
+    <h2>Resume</h2>
+    <h3>Educational Background</h3>
+    <ul>
+        <li>B.A In computer science </li>
+        <li>University of engineering and technology,Peshawar</li>
+        <li> 2019-2022</li>
+
+<li>Relevant Courses: Algorithms, Compilers, Principles of Programming, Logic and Database Theory, Software Engineering, Computer Systems</li>
+<li>GPA: 3.2</li>       
+        
+    </ul>
+    
+    <h3>Skills</h3>
+    <ul>
+        <li>web developnment</li>
+        <li>project managemnet</li>
+        <li>Data analysis</li>
+        
+    </ul>
+    
+    <a href="resume.pdf" download>Download Resume (PDF)</a>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    Here are some of my projects:
+    <li><a href="#">project 1</a></li>
+    <li><a href="#">project 2</a></li>
+    
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+Feel free to reach out to me:
+<li>Email:<li>humaima6323@gmail.com</li>
+<li>Phone:<li>443033779</li>
+
+
+
+
+</section>
+
+<footer>
+    &copy; 2023 Humaima
+</footer>
 </body>
 </html>
